@@ -6,3 +6,19 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
   outline: none;
 }
+
+/*
+* flex-direction: row(por defecto), row-reverse(se posiciona al contrario(si era 1,2,3 pasa a 3,2,1), column(los pone en columnas uno debajo del otro), column-reverse (lo pone al contrario)
+
+* flex-wrap: wrap(poner elementos abajo por si no tienen mas espacios), no-wrap(los pone en toda la pantalla,uno al lado del otro, no importa si el tamaño es muy grande de la caja, pero los cuadros se van a redurcir.), wrap-reverse;
+
+*flex-flow: row wrap, column n-wrap... etc;
+
+*justify-content:flex-start (por defecto), flex-end(pone los elemento a la derecha sin alterar su orden), center(centrar el contenido), space-around(todos los elementos los distribuye por todo el elemento padre, dejando espacios), space-between(lo mismo solo que al inicio y al final no tenemos margenes, SIRVE PARA HACER MENUS);
+
+
+***SOLO SIRVE SI DESEO ORGANIZAR ELEMENTOS QUE ESTEN EN FILA(SI TENEMOS DOS FILAS NO SE PUEDE)****
+*align-items: flex-start(lo que viene por defecto), flex-end(posicionar los elementos al final del contenedor), center(centrar vertical, horizontal y mejor dicho queda centrado arriba,abajo y lados), stretch(los hara abarcar el 100% del heigth, para esto no puede contener el heigth), baseline(posiciona todos los elementos organizar eso con texto)
+
+*align-content: center(centrar), recibe lo mismos parametros que el anterior. y ademas de: space-between | space-around
+*/
